@@ -1,0 +1,144 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+
+/*FIFTH PAGE ----- LOCATIONS*/
+.yoga-classes{
+    background-image: url('images/marble-cover.jpg');
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.classes-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.classes-title{
+    color: rgb(89, 87, 87);
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    font-size: 25px;
+  }
+  
+  .first-class-card {
+    width: 420px;
+    height: 750px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 30px 40px rgba(96, 96, 96, 0.272);
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    /*font-family: Andale Mono, monospace;*/
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-class-card img{
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .first-class-card .schedule{
+    font-family: Andale Mono, monospace;
+    letter-spacing: .1rem;
+    color: rgb(119, 118, 118);
+  }
+  
+  .btn-class{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(168, 167, 166);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .second-class-card {
+    width: 420px;
+    height: 750px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 30px 40px rgba(96, 96, 96, 0.272);
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .second-class-card img{
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .btn-foodtruck{
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(150, 224, 162);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .second-class-card .schedule{
+    font-family: Andale Mono, monospace;
+    letter-spacing: .1rem;
+    color: rgb(119, 118, 118);
+  }
+  
+  .third-class-card {
+    width: 420px;
+    height: 750px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 30px 40px rgba(96, 96, 96, 0.272);
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .third-class-card img{
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .third-class-card .schedule{
+    font-family: Andale Mono, monospace;
+    letter-spacing: .1rem;
+    color: rgb(119, 118, 118);
+  }
+
+  footer {
+    justify-content: center;
+    
+  }
+  .footer-copyright{
+    text-align: center;
+    color: rgb(130, 86, 92);
+    font-size: 8px;
+    align-items: center;
+  }
+  
