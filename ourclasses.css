@@ -20,7 +20,6 @@ body{
 
 .navbar ul{
     list-style-type: none;
-
     margin: 0;
     padding: 0;
     display: flex;
@@ -28,14 +27,14 @@ body{
 
 .navbar li {
     display: inline;
-    padding: 40px;
+    padding: 20px;
     color: black;
     text-align: center;
 }
 
 .navbar a{
     color: black;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ body{
   }
   
   .first-class-card {
-    width: 320px;
+    width: 260px;
     height: 650px;
     border: 1px;
     border-radius: 10px;
@@ -125,7 +124,7 @@ body{
   }
   
   .second-class-card {
-    width: 320px;
+    width: 260px;
     height: 650px;
     border: 1px;
     border-radius: 10px;
@@ -144,17 +143,6 @@ body{
     padding-top: 10px;
   }
   
-  .btn-foodtruck{
-    width: 110px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(150, 224, 162);
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-  }
-  
   .second-class-card .schedule{
     font-family: Andale Mono, monospace;
     letter-spacing: .1rem;
@@ -162,7 +150,7 @@ body{
   }
   
   .third-class-card {
-    width: 320px;
+    width: 260px;
     height: 680px;
     border: 1px;
     border-radius: 10px;
@@ -212,6 +200,26 @@ body{
         justify-content: center;
         flex-direction: inline;
         font-size: 40px;
+    }
+    
+    .navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar li {
+        display: inline;
+        padding: 40px;
+        color: black;
+        text-align: center;
+    }
+    
+    .navbar a{
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
     }
 
     .yoga-classes{
