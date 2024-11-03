@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="classes.css">
+    <link rel="icon" href="images/lotus.png" type="image/png">
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <section class="info-form">
+        <nav class="navbar">
+            <label for="toggle"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="ourclasses.html">PRICES</a></li>
+                    <li><a href="classes.html">CLASSES</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="contact-form">
+            <h2>Do you have any questions?</h2>
+            <p>Please fill the form below and we will get to you as soon as possible.</p>
+            <form action="/processing_order" method="POST">
+                <div class="form-group">
+                    <label for="nume">First Name and Last Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Snow" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mesaj">Message</label>
+                    <textarea placeholder="Message" class="message-box" name="msg"></textarea>
+                </div>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

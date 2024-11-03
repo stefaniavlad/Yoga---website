@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+    background-image: url('images/marble-cover.jpg');
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 30px; 
+    margin: 0 auto;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.navbar a{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+}
+.info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(94, 91, 91);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 60px;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input, textarea {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    resize: vertical;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(151, 151, 151);;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #878585;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: inline;
+        font-size: 40px;
+    }
+    
+    .navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar li {
+        display: inline;
+        padding: 40px;
+        color: black;
+        text-align: center;
+    }
+    
+    .navbar a{
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+    }
+}
